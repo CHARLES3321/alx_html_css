@@ -2,6 +2,8 @@ body{
     display: flex;
     flex-direction: column;
     flex: 3;
+    background-color: aqua;
+     border: 0in;
 }
 main{
     display: flex;
@@ -11,8 +13,15 @@ flex-direction: row;
 article{
     flex: 2;
     overflow-y: auto;
+    text-decoration: chartreuse;
 }
 aside{
     flex: 1;
     overflow-y: auto;
+}
+.logo{
+text-indent: -999999px;
+    background: url("logo.jpeg");
+    width: 2048px;;
+    height: 1152px;
 }
